@@ -4,7 +4,7 @@ import HeroSection from './components/hero_section';
 import TrackReportSection from './components/track_report_section';
 // import HowItWorksSection from './components/how_it_work_section';
 // import AboutSection from './components/about_section';
-// import Footer from './components/footer_section';
+import Footer from './components/footer_section';
 
 export default function App() {
   return (
@@ -24,6 +24,8 @@ export default function App() {
 
         <TrackReportSection />
       </main>
+
+      <Footer />
     </div>
   );
 }
