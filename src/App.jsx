@@ -2,8 +2,8 @@ import { useState } from 'react';
 import Navbar from './components/navbar';
 import HeroSection from './components/hero_section';
 import TrackReportSection from './components/track_report_section';
-// import HowItWorksSection from './components/how_it_work_section';
-// import AboutSection from './components/about_section';
+import HowItWorksSection from './components/how_it_work_section';
+import AboutSection from './components/about_section';
 import Footer from './components/footer_section';
 
 export default function App() {
@@ -23,6 +23,10 @@ export default function App() {
         />
 
         <TrackReportSection />
+
+        <HowItWorksSection />
+
+        <AboutSection />
       </main>
 
       <Footer />
