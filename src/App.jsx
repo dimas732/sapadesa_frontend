@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar';
 import HeroSection from './components/hero_section';
 import TrackReportSection from './components/track_report_section';
 import CreateReportModal from './components/create_report_modal';
