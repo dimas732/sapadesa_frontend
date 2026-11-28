@@ -30,6 +30,7 @@ export default function App() {
         <TrackReportSection />
         <HowItWorksSection />
         <AboutSection />
+        <Footer />
       </main>
 
       <CreateReportModal
